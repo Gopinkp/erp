@@ -7,7 +7,7 @@ import { Quality } from './quality/quality';
   selector: 'app-root',
   imports: [RouterOutlet,Menu,Quality],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrls: ['./app.css']
 })
 export class App {
   protected readonly title = signal('ERP');
