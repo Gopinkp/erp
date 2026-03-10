@@ -1,7 +1,11 @@
-<form>
+<!--<form> -->
     <label>Food Name</label>
-    <input type="text"><br><br>
+    <input type="text" name="foodname" #in1><br><br>
     <label>Food Price</label>
-    <input type="number"><br><br>
-    <button>Add Food</button>
-</form>
+    <input type="text" name="foodprice" #in2><br><br>
+    <button (click)="display(in1.value, in2.value)">Add Food</button>
+<!--</form> -->
+ <div>
+    <p>Food Name:{{foodname}}</p>
+    <p>Food Price:{{foodprice}}</p>
+    </div>

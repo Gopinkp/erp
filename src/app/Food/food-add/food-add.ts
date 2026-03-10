@@ -6,4 +6,17 @@ import { Component } from '@angular/core';
   templateUrl: './food-add.html',
   styleUrl: './food-add.css',
 })
-export class FoodAdd {}
+export class FoodAdd {
+  foodname = "unknown"
+  foodprice = "0.0"
+
+  display(name:string, price:string){
+    this.foodname = name
+    this.foodprice = price
+    {
+
+    
+  }
+
+}
+}
